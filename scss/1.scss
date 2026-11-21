@@ -1,0 +1,271 @@
+$list-img-circle: "vtl.webp", "хоккей.jpg", "кубок.jpg", "коньки.webp", "cnc.webp";
+
+@font-face {
+    font-family: "molodejka";
+    src: url("../font/fedra-sans-pro/FedraSansPro-MediumItalic.ttf");
+}
+    @font-face {
+    font-family: "mol" ;
+    src: url("../font/fedra-sans-pro/FedraSansPro-Light.ttf");
+}
+
+$font: "molodejka";
+
+@mixin flexible () {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+    min-height: 70px;
+
+    .logo {
+        background: url(../img/молод\ лог.jpg) no-repeat;
+        background-size: contain;
+        background-position: center;
+        flex: 0 0 30%;
+        min-width: 150px;
+        height: 100%;
+    }
+
+    .top {
+        width: 70%;
+        @include flexible ();
+
+        div {
+            @include flexible();
+            background: #2b3ed2;
+            flex: 1 1 20%;
+            height: 5vh;
+            min-height: 40px;
+            font-size: clamp(0.7rem, 1.7vw, 5rem);
+            color: rgb(233, 230, 230);
+            white-space: nowrap;
+            padding: 0 5px;
+            font-family: "mol"
+        }
+    }
+}
+
+
+.second-row {
+    @include flexible();
+    background: url("../img/мол.jpg") no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 2/1;
+    font-family: "molodejka";
+    font-size: clamp(1.5rem, 18vw, 30rem);
+    margin-bottom: 100px;
+    .utp {
+        color: #2655e2;                          // белый текст
+        text-shadow:                             // подсветка по контуру
+            2px 2px 4px #f0f1f7,                 // синяя тень — в тон твоей теме
+            -2px -2px 4px #eb0004;               // красная с другой стороны
+    }
+
+}
+
+@for $i from 1 through 5 {
+    .repeat-lines#{$i} {
+        display: flex;
+        height: auto;
+        margin: 0 30px;
+
+        .text, .img {
+            flex: 1 1 50%;
+        }
+
+        .text {
+            margin: 0 30px;
+            font-family: "mol";
+            font-size: 8rem;
+            color: #2655e2;
+        }
+
+        .img {
+            aspect-ratio: 2/1.5;
+            object-fit: contain;
+
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        @if $i % 2 == 0 {
+            flex-direction: row-reverse;
+        }
+    }
+}
+
+$j: 1;
+
+.circle-line {
+    display: flex;
+    justify-content: space-around;
+
+    @each $i in $list-img-circle {
+        .circle#{$j} {
+            aspect-ratio: 1/1;
+            flex: 0 0 15vw;
+            background: url("../img/" + $i) no-repeat;
+            background-size: cover;
+            border-radius: 50%;
+            border: 3px solid #ea1313;
+            box-shadow: 2px 2px 3px #2b3ed2;
+        }
+
+        $j: $j + 1;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+.top-nav {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    z-index: 100;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin: 0;
+    padding: 70px 0 0 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 40%;
+    min-width: 220px;
+    height: 100vh;
+    background: #f2f2f2;
+    box-shadow: 2px 0 8px rgba(0, 0, 0, 0.25);
+    transform: translateX(-100%);
+    transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+
+    li {
+        padding: 18px 0;
+        font-family: $font;
+        font-size: 1.6rem;
+        color: #333;
+    }
+}
+
+.menu-button-container {
+    display: none;
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    width: 30px;
+    height: 30px;
+    z-index: 110;
+    cursor: pointer;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+.menu-button,
+.menu-button::before,
+.menu-button::after {
+    display: block;
+    background-color: #e13232;
+    position: absolute;
+    height: 4px;
+    width: 30px;
+    border-radius: 2px;
+    transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.menu-button::before {
+    content: '';
+    margin-top: -8px;
+}
+
+.menu-button::after {
+    content: '';
+    margin-top: 8px;
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button::before {
+    margin-top: 0;
+    transform: rotate(405deg);
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button {
+    background: rgba(186, 20, 20, 0);
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button::after {
+    margin-top: 0;
+    transform: rotate(-405deg);
+}
+
+
+#menu-toggle:checked ~ .menu {
+    transform: translateX(0);
+}
+
+
+
+@media (max-width: 800px) {
+    .top-nav {
+        display: block;
+    }
+
+    header {
+        display: none;
+    }
+
+    .menu-button-container {
+        display: block;
+    }
+
+    @for $i from 1 through 5 {
+        .repeat-lines#{$i} {
+            display: flex;
+            flex-direction: column;
+            height: auto;
+            margin: 30px 30px;
+            border: 3px solid #c10c0c;
+            border-radius: 10px;
+
+            .text, .img {
+                flex: 1 1 50%;
+            }
+
+            .text {
+                margin: 0 30px;
+                font-family: $font;
+                font-size: 2rem;
+            }
+
+            .img {
+                aspect-ratio: 2/1.5;
+                object-fit: contain;
+
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
+    }
+}
