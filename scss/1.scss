@@ -64,9 +64,9 @@ header {
     font-size: clamp(1.5rem, 18vw, 30rem);
     margin-bottom: 100px;
     .utp {
-        color: #2655e2;                          // белый текст
-        text-shadow:                             // подсветка по контуру
-            2px 2px 4px #f0f1f7,                 // синяя тень — в тон твоей теме
+        color: #2655e2;                          
+        text-shadow:                            
+            2px 2px 4px #f0f1f7,            
             -2px -2px 4px #eb0004;               // красная с другой стороны
     }
 
@@ -85,7 +85,7 @@ header {
         .text {
             margin: 0 30px;
             font-family: "mol";
-            font-size: clamp(1.1rem, 2.5vw, 1,5rem);
+            font-size: clamp(1.1rem, 2.5vw, 9rem);
             color: #2655e2;
         }
 
