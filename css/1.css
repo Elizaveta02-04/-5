@@ -72,7 +72,7 @@ header .top div {
 .repeat-lines1 .text {
   margin: 0 30px;
   font-family: "mol";
-  font-size: 8rem;
+  font-size: clamp(1.1rem, 2.5vw, 2.2rem);
   color: #2655e2;
 }
 .repeat-lines1 .img {
@@ -96,7 +96,7 @@ header .top div {
 .repeat-lines2 .text {
   margin: 0 30px;
   font-family: "mol";
-  font-size: 8rem;
+  font-size: clamp(1.1rem, 2.5vw, 2.2rem);
   color: #2655e2;
 }
 .repeat-lines2 .img {
@@ -123,7 +123,7 @@ header .top div {
 .repeat-lines3 .text {
   margin: 0 30px;
   font-family: "mol";
-  font-size: 8rem;
+  font-size: clamp(1.1rem, 2.5vw, 2.2rem);
   color: #2655e2;
 }
 .repeat-lines3 .img {
@@ -147,7 +147,7 @@ header .top div {
 .repeat-lines4 .text {
   margin: 0 30px;
   font-family: "mol";
-  font-size: 8rem;
+  font-size: clamp(1.1rem, 2.5vw, 2.2rem);
   color: #2655e2;
 }
 .repeat-lines4 .img {
@@ -174,7 +174,7 @@ header .top div {
 .repeat-lines5 .text {
   margin: 0 30px;
   font-family: "mol";
-  font-size: 8rem;
+  font-size: clamp(1.1rem, 2.5vw, 2.2rem);
   color: #2655e2;
 }
 .repeat-lines5 .img {
@@ -344,7 +344,7 @@ header .top div {
     display: flex;
     flex-direction: column;
     height: auto;
-    margin: 30px 30px;
+    margin: 30px;
     border: 3px solid #c10c0c;
     border-radius: 10px;
   }
@@ -354,11 +354,9 @@ header .top div {
   .repeat-lines1 .text {
     margin: 0 30px;
     font-family: "mol";
-    font-size: clamp(1.1rem, 2.5vw, 15rem);
+    font-size: clamp(1.1rem, 2.5vw, 2.2rem);
     line-height: 1.5;
-    margin: 0 30px;
-    font-family: "mol";
-    font-size: clamp(1.1rem, 2.5vw, 3rem);
+    color: #2655e2;
   }
   .repeat-lines1 .img {
     aspect-ratio: 2/1.5;
@@ -373,7 +371,7 @@ header .top div {
     display: flex;
     flex-direction: column;
     height: auto;
-    margin: 30px 30px;
+    margin: 30px;
     border: 3px solid #c10c0c;
     border-radius: 10px;
   }
@@ -383,11 +381,9 @@ header .top div {
   .repeat-lines2 .text {
     margin: 0 30px;
     font-family: "mol";
-    font-size: clamp(1.1rem, 2.5vw, 15rem);
+    font-size: clamp(1.1rem, 2.5vw, 2.2rem);
     line-height: 1.5;
-    margin: 0 30px;
-    font-family: "mol";
-    font-size: clamp(1.1rem, 2.5vw, 3rem);
+    color: #2655e2;
   }
   .repeat-lines2 .img {
     aspect-ratio: 2/1.5;
@@ -402,7 +398,7 @@ header .top div {
     display: flex;
     flex-direction: column;
     height: auto;
-    margin: 30px 30px;
+    margin: 30px;
     border: 3px solid #c10c0c;
     border-radius: 10px;
   }
@@ -412,11 +408,9 @@ header .top div {
   .repeat-lines3 .text {
     margin: 0 30px;
     font-family: "mol";
-    font-size: clamp(1.1rem, 2.5vw, 15rem);
+    font-size: clamp(1.1rem, 2.5vw, 2.2rem);
     line-height: 1.5;
-    margin: 0 30px;
-    font-family: "mol";
-    font-size: clamp(1.1rem, 2.5vw, 3rem);
+    color: #2655e2;
   }
   .repeat-lines3 .img {
     aspect-ratio: 2/1.5;
@@ -431,7 +425,7 @@ header .top div {
     display: flex;
     flex-direction: column;
     height: auto;
-    margin: 30px 30px;
+    margin: 30px;
     border: 3px solid #c10c0c;
     border-radius: 10px;
   }
@@ -441,11 +435,9 @@ header .top div {
   .repeat-lines4 .text {
     margin: 0 30px;
     font-family: "mol";
-    font-size: clamp(1.1rem, 2.5vw, 15rem);
+    font-size: clamp(1.1rem, 2.5vw, 2.2rem);
     line-height: 1.5;
-    margin: 0 30px;
-    font-family: "mol";
-    font-size: clamp(1.1rem, 2.5vw, 3rem);
+    color: #2655e2;
   }
   .repeat-lines4 .img {
     aspect-ratio: 2/1.5;
@@ -460,7 +452,7 @@ header .top div {
     display: flex;
     flex-direction: column;
     height: auto;
-    margin: 30px 30px;
+    margin: 30px;
     border: 3px solid #c10c0c;
     border-radius: 10px;
   }
@@ -470,11 +462,9 @@ header .top div {
   .repeat-lines5 .text {
     margin: 0 30px;
     font-family: "mol";
-    font-size: clamp(1.1rem, 2.5vw, 15rem);
+    font-size: clamp(1.1rem, 2.5vw, 2.2rem);
     line-height: 1.5;
-    margin: 0 30px;
-    font-family: "mol";
-    font-size: clamp(1.1rem, 2.5vw, 3rem);
+    color: #2655e2;
   }
   .repeat-lines5 .img {
     aspect-ratio: 2/1.5;

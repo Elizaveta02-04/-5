@@ -238,37 +238,36 @@ $j: 1;
         display: block;
     }
 
-    @for $i from 1 through 5 {
-        .repeat-lines#{$i} {
-            display: flex;
-            flex-direction: column;
-            height: auto;
-            margin: 30px 30px;
-            border: 3px solid #c10c0c;
-            border-radius: 10px;
+   @for $i from 1 through 5 {
+    .repeat-lines#{$i} {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        margin: 30px;
+        border: 3px solid #c10c0c;
+        border-radius: 10px;
 
-            .text, .img {
-                flex: 1 1 50%;
-            }
+        .text, .img {
+            flex: 1 1 50%;
+        }
 
-            .text {
-                margin: 0 30px;
-    font-family: "mol";
-    font-size: clamp(1.1rem, 2.5vw,2,5rem);   
-    line-height: 1.5;margin: 0 30px;
-    font-family: "mol";
-    font-size: clamp(1.1rem, 2.5vw, 2,5rem);  
-            }
+        .text {
+            margin: 0 30px;
+            font-family: "mol";
+            font-size: clamp(1.1rem, 2.5vw, 2.2rem);
+            line-height: 1.5;
+            color: #2655e2;
+        }
 
-            .img {
-                aspect-ratio: 2/1.5;
-                object-fit: contain;
+        .img {
+            aspect-ratio: 2/1.5;
+            object-fit: contain;
 
-                img {
-                    width: 100%;
-                    height: auto;
-                }
+            img {
+                width: 100%;
+                height: auto;
             }
         }
     }
+}
 }
