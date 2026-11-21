@@ -358,7 +358,7 @@ header .top div {
     line-height: 1.5;
     margin: 0 30px;
     font-family: "mol";
-    font-size: clamp(1.1rem, 2.5vw, 15rem);
+    font-size: clamp(1.1rem, 2.5vw, 3rem);
   }
   .repeat-lines1 .img {
     aspect-ratio: 2/1.5;
@@ -387,7 +387,7 @@ header .top div {
     line-height: 1.5;
     margin: 0 30px;
     font-family: "mol";
-    font-size: clamp(1.1rem, 2.5vw, 15rem);
+    font-size: clamp(1.1rem, 2.5vw, 3rem);
   }
   .repeat-lines2 .img {
     aspect-ratio: 2/1.5;
@@ -416,7 +416,7 @@ header .top div {
     line-height: 1.5;
     margin: 0 30px;
     font-family: "mol";
-    font-size: clamp(1.1rem, 2.5vw, 15rem);
+    font-size: clamp(1.1rem, 2.5vw, 3rem);
   }
   .repeat-lines3 .img {
     aspect-ratio: 2/1.5;
@@ -445,7 +445,7 @@ header .top div {
     line-height: 1.5;
     margin: 0 30px;
     font-family: "mol";
-    font-size: clamp(1.1rem, 2.5vw, 15rem);
+    font-size: clamp(1.1rem, 2.5vw, 3rem);
   }
   .repeat-lines4 .img {
     aspect-ratio: 2/1.5;
@@ -474,7 +474,7 @@ header .top div {
     line-height: 1.5;
     margin: 0 30px;
     font-family: "mol";
-    font-size: clamp(1.1rem, 2.5vw, 15rem);
+    font-size: clamp(1.1rem, 2.5vw, 3rem);
   }
   .repeat-lines5 .img {
     aspect-ratio: 2/1.5;
