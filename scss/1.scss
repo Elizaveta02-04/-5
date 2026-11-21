@@ -253,8 +253,12 @@ $j: 1;
 
             .text {
                 margin: 0 30px;
-                font-family: $font;
-                font-size: 2rem;
+    font-family: "mol";
+    font-size: clamp(1.1rem, 2.5vw, 2.2rem);   // ~18px на телефоне, до 35px на мониторе
+    line-height: 1.5;margin: 0 30px;
+    font-family: "mol";
+    font-size: clamp(1.1rem, 2.5vw, 2.2rem);   // ~18px на телефоне, до 35px на мониторе
+    line-height: 1.5;
             }
 
             .img {

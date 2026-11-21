@@ -353,8 +353,13 @@ header .top div {
   }
   .repeat-lines1 .text {
     margin: 0 30px;
-    font-family: "molodejka";
-    font-size: 2rem;
+    font-family: "mol";
+    font-size: clamp(1.1rem, 2.5vw, 2.2rem);
+    line-height: 1.5;
+    margin: 0 30px;
+    font-family: "mol";
+    font-size: clamp(1.1rem, 2.5vw, 2.2rem);
+    line-height: 1.5;
   }
   .repeat-lines1 .img {
     aspect-ratio: 2/1.5;
@@ -378,8 +383,13 @@ header .top div {
   }
   .repeat-lines2 .text {
     margin: 0 30px;
-    font-family: "molodejka";
-    font-size: 2rem;
+    font-family: "mol";
+    font-size: clamp(1.1rem, 2.5vw, 2.2rem);
+    line-height: 1.5;
+    margin: 0 30px;
+    font-family: "mol";
+    font-size: clamp(1.1rem, 2.5vw, 2.2rem);
+    line-height: 1.5;
   }
   .repeat-lines2 .img {
     aspect-ratio: 2/1.5;
@@ -403,8 +413,13 @@ header .top div {
   }
   .repeat-lines3 .text {
     margin: 0 30px;
-    font-family: "molodejka";
-    font-size: 2rem;
+    font-family: "mol";
+    font-size: clamp(1.1rem, 2.5vw, 2.2rem);
+    line-height: 1.5;
+    margin: 0 30px;
+    font-family: "mol";
+    font-size: clamp(1.1rem, 2.5vw, 2.2rem);
+    line-height: 1.5;
   }
   .repeat-lines3 .img {
     aspect-ratio: 2/1.5;
@@ -428,8 +443,13 @@ header .top div {
   }
   .repeat-lines4 .text {
     margin: 0 30px;
-    font-family: "molodejka";
-    font-size: 2rem;
+    font-family: "mol";
+    font-size: clamp(1.1rem, 2.5vw, 2.2rem);
+    line-height: 1.5;
+    margin: 0 30px;
+    font-family: "mol";
+    font-size: clamp(1.1rem, 2.5vw, 2.2rem);
+    line-height: 1.5;
   }
   .repeat-lines4 .img {
     aspect-ratio: 2/1.5;
@@ -453,8 +473,13 @@ header .top div {
   }
   .repeat-lines5 .text {
     margin: 0 30px;
-    font-family: "molodejka";
-    font-size: 2rem;
+    font-family: "mol";
+    font-size: clamp(1.1rem, 2.5vw, 2.2rem);
+    line-height: 1.5;
+    margin: 0 30px;
+    font-family: "mol";
+    font-size: clamp(1.1rem, 2.5vw, 2.2rem);
+    line-height: 1.5;
   }
   .repeat-lines5 .img {
     aspect-ratio: 2/1.5;
