@@ -85,7 +85,7 @@ header {
         .text {
             margin: 0 30px;
             font-family: "mol";
-            font-size: 8rem;
+            font-size: clamp(1.1rem, 2.5vw, 2.2rem);
             color: #2655e2;
         }
 
