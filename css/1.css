@@ -354,12 +354,11 @@ header .top div {
   .repeat-lines1 .text {
     margin: 0 30px;
     font-family: "mol";
-    font-size: clamp(1.1rem, 2.5vw, 2.2rem);
+    font-size: clamp(1.1rem, 2.5vw, 15rem);
     line-height: 1.5;
     margin: 0 30px;
     font-family: "mol";
-    font-size: clamp(1.1rem, 2.5vw, 2.2rem);
-    line-height: 1.5;
+    font-size: clamp(1.1rem, 2.5vw, 15rem);
   }
   .repeat-lines1 .img {
     aspect-ratio: 2/1.5;
@@ -384,12 +383,11 @@ header .top div {
   .repeat-lines2 .text {
     margin: 0 30px;
     font-family: "mol";
-    font-size: clamp(1.1rem, 2.5vw, 2.2rem);
+    font-size: clamp(1.1rem, 2.5vw, 15rem);
     line-height: 1.5;
     margin: 0 30px;
     font-family: "mol";
-    font-size: clamp(1.1rem, 2.5vw, 2.2rem);
-    line-height: 1.5;
+    font-size: clamp(1.1rem, 2.5vw, 15rem);
   }
   .repeat-lines2 .img {
     aspect-ratio: 2/1.5;
@@ -414,12 +412,11 @@ header .top div {
   .repeat-lines3 .text {
     margin: 0 30px;
     font-family: "mol";
-    font-size: clamp(1.1rem, 2.5vw, 2.2rem);
+    font-size: clamp(1.1rem, 2.5vw, 15rem);
     line-height: 1.5;
     margin: 0 30px;
     font-family: "mol";
-    font-size: clamp(1.1rem, 2.5vw, 2.2rem);
-    line-height: 1.5;
+    font-size: clamp(1.1rem, 2.5vw, 15rem);
   }
   .repeat-lines3 .img {
     aspect-ratio: 2/1.5;
@@ -444,12 +441,11 @@ header .top div {
   .repeat-lines4 .text {
     margin: 0 30px;
     font-family: "mol";
-    font-size: clamp(1.1rem, 2.5vw, 2.2rem);
+    font-size: clamp(1.1rem, 2.5vw, 15rem);
     line-height: 1.5;
     margin: 0 30px;
     font-family: "mol";
-    font-size: clamp(1.1rem, 2.5vw, 2.2rem);
-    line-height: 1.5;
+    font-size: clamp(1.1rem, 2.5vw, 15rem);
   }
   .repeat-lines4 .img {
     aspect-ratio: 2/1.5;
@@ -474,12 +470,11 @@ header .top div {
   .repeat-lines5 .text {
     margin: 0 30px;
     font-family: "mol";
-    font-size: clamp(1.1rem, 2.5vw, 2.2rem);
+    font-size: clamp(1.1rem, 2.5vw, 15rem);
     line-height: 1.5;
     margin: 0 30px;
     font-family: "mol";
-    font-size: clamp(1.1rem, 2.5vw, 2.2rem);
-    line-height: 1.5;
+    font-size: clamp(1.1rem, 2.5vw, 15rem);
   }
   .repeat-lines5 .img {
     aspect-ratio: 2/1.5;
